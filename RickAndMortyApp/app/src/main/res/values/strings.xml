@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+
+    <string name="exit_menu_text">Exit</string>
+    <string name="load_more_text">Load More</string>
+    <string name="alert_title_text">No Internet Connection</string>
+    <string name="alert_msg_text">Turn on mobile data or WiFi to continue"</string>
+    <string name="alert_negative_button_text">WiFi</string>
+    <string name="alert_positive_button_text">Mobile Data</string>
+    <string name="episode_view_title">Rick And Morty Episodes</string>
+    <string name="characters_view_title">Characters</string>
+    <string name="character_detail_view_title">Character Details</string>
+    <string name="episodes_view_empty_text">Please wait while we fetch all episodes of Rick And Morty</string>
+    <string name="characters_view_empty_text">Please wait while we fetch list of characters in %s episode</string>
+    <string name="characters_details_view_empty_text">Please wait while we fetch character details</string>
+
+    <!-- Error Messages -->
+    <string name="unexpected_error">Unexpected error. Please try later</string>
+    <string name="no_data_error">We could not find any information to show. Please try later</string>
+    <string name="no_episodes_error">We could not find any episodes to show. Please try later</string>
+    <string name="no_characters_error">We could not find any characters to show. Please try later</string>
+</resources>

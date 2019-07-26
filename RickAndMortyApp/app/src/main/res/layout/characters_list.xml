@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_list_bg_color"
+
+    android:paddingTop="@dimen/divider_list_margin">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/progress_bar_margin"
+        android:layout_height="40dp"
+        android:layout_margin="0dp" >
+    </ProgressBar>
+
+    <GridView
+        android:id="@+id/characters_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="24dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="spacingWidthUniform"
+        />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="inherit"
+        android:textColor="@color/blue_color"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/big_text_margin" />
+
+</RelativeLayout>
